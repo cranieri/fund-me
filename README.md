@@ -4,10 +4,10 @@
 
 Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
+- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
+- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
 ## Documentation
 
@@ -63,4 +63,22 @@ $ cast <subcommand>
 $ forge --help
 $ anvil --help
 $ cast --help
+```
+
+### Style guide
+
+```shell
+https://github.com/smartcontractkit/chainlink/blob/develop/contracts/STYLE_GUIDE.md
+```
+
+### Lib used
+
+```shell
+Install Foundry
+https://book.getfoundry.sh/getting-started/installation
+
+
+https://github.com/smartcontractkit/chainlink-brownie-contracts
+
+https://github.com/Cyfrin/foundry-devops
 ```
